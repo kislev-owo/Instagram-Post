@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+.publicacion{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height:100vh;             /*ocupa todo el alto de la imagen */
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    width:500px;
+    background-color:white ; 
+}
+.texto1{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.titulo p{
+    background-color:white;
+    margin: 2px;
+}
+.titulo i{
+    background-color:white ;
+    padding-left: 12px;
+}
+.foto img{
+    width: 500px;
+    height: 300px;
+    margin-bottom: -5px;
+}
+.titulo2{
+    display: flex;
+    align-items: center;
+    width:500px;
+    background-color:white; 
+}
+.titulo2 p{
+    background-color: white;
+}
+.texto2{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap:nowrap;
+    margin-top: 50px;
+}
+.titulo2 i{
+    background-color:white ;
+    margin-left: 5px;
+}
+.titulo3{
+    display: flex;
+    align-items: center;
+    width:500px;
+    background-color:white ; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+}
+.titulo3 p{
+    background-color: white;
+    margin: 10px;
+}
+.fas{
+    margin-right: 5px; font-size: 30px;  
+}
+.far{
+    margin-right: 5px; font-size: 30px;
+}
