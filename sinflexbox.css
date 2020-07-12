@@ -1,0 +1,62 @@
+body{
+    background-color:black; 
+    font-size: 18px; font-family: 'Acme', sans-serif; 
+}
+.img-perfil img{
+    max-width: 40px;
+    float: left; 
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+} 
+.title{
+  font-size: 18px;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 5px;
+}
+.name{
+font-size: 14px;
+    width: 100%;
+   display: list-item; 
+}
+div{
+    box-sizing:border-box;
+    margin-bottom: auto;
+}
+.iconoarriba img{
+    max-width: 40px;
+    float: right;
+    padding-top: 5px;
+} 
+div.pagcompleta h2, div.pagcompleta p{ 
+    padding:1px;
+}
+div.publicacion{
+
+  background:white; width: 500px; height: 500px; margin: auto; 
+	position: absolute;  top:50%; left: 50%; transform: translate(-45%, -55%);
+}
+div.imagen img{
+   width: 500px; height: 300px; margin: auto;
+}
+.iconos-abajo-izquierda img{
+    max-width: 30px;
+    float: left; 
+    padding-left: 8px;  
+} 
+.texto{
+    font-size:15px;
+    padding-left: 10px;
+     padding-right: 10px;
+     padding: 10px;
+    background-color: white;
+}
+.iconos img{
+    max-width: 30px;
+    float: right; 
+    padding-right: 8px;
+} 
+
+
+
